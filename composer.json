@@ -4,6 +4,7 @@
 	"keywords": ["yii2", "extension", "eauth", "openid", "oauth", "authentication"],
 	"homepage": "https://github.com/ibrain90/yii2-eauth",
 	"license": "New BSD License",
+	"type": "yii2-extension",
 	"authors": [
 		{
 			"name": "Alexander Shestakov",
