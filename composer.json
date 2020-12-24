@@ -1,19 +1,23 @@
 {
-	"name": "ibrain90/yii2-eauth",
+	"name": "nodge/yii2-eauth",
 	"description": "Yii2 EAuth Extension. EAuth allows to authenticate users with accounts on other websites (Google, Facebook, Twitter, etc).",
 	"keywords": ["yii2", "extension", "eauth", "openid", "oauth", "authentication"],
-	"homepage": "https://github.com/ibrain90/yii2-eauth",
-	"license": "New BSD License",
+	"homepage": "https://github.com/Nodge/yii2-eauth",
 	"type": "yii2-extension",
+	"license": "New BSD License",
 	"authors": [
 		{
-			"name": "Alexander Shestakov",
-			"email": "djbrain90@gmail.com"
+			"name": "Maxim Zemskov",
+			"email": "nodge@yandex.ru",
+			"homepage": "http://nodge.ru/"
 		}
 	],
+	"support": {
+		"source": "https://github.com/nodge/yii2-eauth"
+	},
 	"autoload": {
 		"psr-4": {
-			"ibrain90\\eauth\\": "src/"
+			"nodge\\eauth\\": "src/"
 		}
 	},
 	"require": {
