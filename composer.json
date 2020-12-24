@@ -3,7 +3,7 @@
 	"description": "Yii2 EAuth Extension. EAuth allows to authenticate users with accounts on other websites (Google, Facebook, Twitter, etc).",
 	"keywords": ["yii2", "extension", "eauth", "openid", "oauth", "authentication"],
 	"homepage": "https://github.com/ibrain90/yii2-eauth",
-	"license": "New BSD License",
+	"license": "MIT",
 	"type": "yii2-extension",
 	"authors": [
 		{
