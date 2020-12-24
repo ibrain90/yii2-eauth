@@ -7,17 +7,17 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\oauth1;
+namespace ibrain90\eauth\oauth1;
 
 use Yii;
 use OAuth\Common\Exception\Exception as OAuthException;
 use OAuth\Common\Http\Uri\Uri;
 use OAuth\Common\Consumer\Credentials;
 use OAuth\OAuth1\Signature\Signature;
-use nodge\eauth\EAuth;
-use nodge\eauth\ErrorException;
-use nodge\eauth\IAuthService;
-use nodge\eauth\oauth\ServiceBase;
+use ibrain90\eauth\EAuth;
+use ibrain90\eauth\ErrorException;
+use ibrain90\eauth\IAuthService;
+use ibrain90\eauth\oauth\ServiceBase;
 
 /**
  * EOAuthService is a base class for all OAuth providers.

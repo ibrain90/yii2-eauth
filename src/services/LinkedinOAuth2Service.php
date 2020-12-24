@@ -10,10 +10,10 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\services;
+namespace ibrain90\eauth\services;
 
 use OAuth\OAuth2\Service\ServiceInterface;
-use nodge\eauth\oauth2\Service;
+use ibrain90\eauth\oauth2\Service;
 
 /**
  * LinkedIn provider class.

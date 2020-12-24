@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth;
+namespace ibrain90\eauth;
 
 use Yii;
 use yii\base\Application;

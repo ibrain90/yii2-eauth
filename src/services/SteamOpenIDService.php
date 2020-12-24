@@ -7,9 +7,9 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\services;
+namespace ibrain90\eauth\services;
 
-use nodge\eauth\openid\Service;
+use ibrain90\eauth\openid\Service;
 
 /**
  * Steam provider class.
