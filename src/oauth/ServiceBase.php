@@ -7,13 +7,13 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth\oauth;
+namespace nodge\eauth\oauth;
 
 use Yii;
 use OAuth\Common\Storage\TokenStorageInterface;
-use ibrain90\eauth\EAuth;
-use ibrain90\eauth\IAuthService;
-use ibrain90\eauth\ErrorException;
+use nodge\eauth\EAuth;
+use nodge\eauth\IAuthService;
+use nodge\eauth\ErrorException;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 
@@ -22,7 +22,7 @@ use yii\helpers\Url;
  *
  * @package application.extensions.eauth
  */
-abstract class ServiceBase extends \ibrain90\eauth\ServiceBase implements IAuthService
+abstract class ServiceBase extends \nodge\eauth\ServiceBase implements IAuthService
 {
 
 	/**
@@ -76,7 +76,7 @@ abstract class ServiceBase extends \ibrain90\eauth\ServiceBase implements IAuthS
 	}
 
 	/**
-	 * @return \ibrain90\eauth\oauth1\ServiceProxy|\ibrain90\eauth\oauth2\ServiceProxy
+	 * @return \nodge\eauth\oauth1\ServiceProxy|\nodge\eauth\oauth2\ServiceProxy
 	 */
 	abstract protected function getProxy();
 

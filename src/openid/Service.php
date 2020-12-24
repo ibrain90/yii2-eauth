@@ -7,14 +7,14 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth\openid;
+namespace nodge\eauth\openid;
 
 use \Yii;
 use \LightOpenID;
 use yii\web\HttpException;
-use ibrain90\eauth\ServiceBase;
-use ibrain90\eauth\IAuthService;
-use ibrain90\eauth\ErrorException;
+use nodge\eauth\ServiceBase;
+use nodge\eauth\IAuthService;
+use nodge\eauth\ErrorException;
 
 /**
  * EOpenIDService is a base class for all OpenID providers.

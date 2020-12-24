@@ -11,9 +11,9 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth\services;
+namespace nodge\eauth\services;
 
-use ibrain90\eauth\oauth2\Service;
+use nodge\eauth\oauth2\Service;
 
 /**
  * Odnoklassniki.Ru provider class.

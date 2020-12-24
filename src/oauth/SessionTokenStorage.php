@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth\oauth;
+namespace nodge\eauth\oauth;
 
 use Yii;
 use OAuth\Common\Storage\TokenStorageInterface;

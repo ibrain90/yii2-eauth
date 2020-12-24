@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth;
+namespace nodge\eauth;
 
 /**
  * IAuthService is the interface for all service types and providers.

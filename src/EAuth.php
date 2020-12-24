@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth;
+namespace nodge\eauth;
 
 use Yii;
 use yii\base\BaseObject;
@@ -45,20 +45,20 @@ class EAuth extends BaseObject
 	/**
 	 * @var string popup redirect view with custom js code
 	 */
-	protected $redirectWidget = '\\ibrain90\\eauth\\RedirectWidget';
+	protected $redirectWidget = '\\nodge\\eauth\\RedirectWidget';
 
 	/**
 	 * @var array TokenStorage class.
 	 */
 	protected $tokenStorage = [
-		'class' => 'ibrain90\eauth\oauth\SessionTokenStorage',
+		'class' => 'nodge\eauth\oauth\SessionTokenStorage',
 	];
 
 	/**
 	 * @var array HttpClient class.
 	 */
 	protected $httpClient = [
-		'class' => 'ibrain90\eauth\oauth\HttpClient',
+		'class' => 'nodge\eauth\oauth\HttpClient',
 //		'useStreamsFallback' => false,
 	];
 

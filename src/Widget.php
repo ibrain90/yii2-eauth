@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth;
+namespace nodge\eauth;
 
 use Yii;
 
@@ -49,7 +49,7 @@ class Widget extends \yii\base\Widget
 	 * @var boolean include the CSS file. Default is true.
 	 * If this is set false, you are responsible to explicitly include the necessary CSS file in your page.
 	 */
-	public $assetBundle = 'ibrain90\\eauth\\assets\\WidgetAssetBundle';
+	public $assetBundle = 'nodge\\eauth\\assets\\WidgetAssetBundle';
 
 	/**
 	 * Initializes the widget.
@@ -62,7 +62,7 @@ class Widget extends \yii\base\Widget
 		parent::init();
 
 		// EAuth component
-		/** @var $component \ibrain90\eauth\EAuth */
+		/** @var $component \nodge\eauth\EAuth */
 		$component = Yii::$app->get($this->component);
 
 		// Some default properties from component configuration

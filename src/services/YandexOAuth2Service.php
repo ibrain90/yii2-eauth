@@ -9,10 +9,10 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth\services;
+namespace nodge\eauth\services;
 
 use OAuth\Common\Token\TokenInterface;
-use ibrain90\eauth\oauth2\Service;
+use nodge\eauth\oauth2\Service;
 
 /**
  * Yandex OAuth provider class.

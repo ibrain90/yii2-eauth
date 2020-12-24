@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace ibrain90\eauth;
+namespace nodge\eauth;
 
 class ErrorException extends \yii\base\ErrorException
 {

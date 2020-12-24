@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace ibrain90\eauth\assets;
+namespace nodge\eauth\assets;
 
 use yii\web\AssetBundle;
 
